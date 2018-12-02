@@ -1,0 +1,75 @@
+
+body {
+   padding-top: 0px;
+   background: #eeeeee;
+   background-color: #f4f4f4;
+   font-family: sans-serif;
+   color: #444;
+
+}
+
+.kop
+{
+	background-color: transparent;
+	padding-top: 5px;
+	width: 15px auto;
+	margin: 15px auto; /*Jarak luar background konten*/
+/*	padding: 15px auto ;*/
+}
+.menu
+{
+	background-color: #87CEFA; /*Warna Background  menu*/
+	border: 1px solid #f0f0f0; /*Ukuran background menu*/
+	border-radius: 8px;	/*Membuat background kotak menjadi melengkung*/
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+div.menu ul{
+	list-style: none; /*Menghilangkan tanda lis pada ul>li*/
+	overflow: hidden; /*membuat teks berada di luar background menu*/
+}
+
+div.menu ul li{
+	float: left; /*mengabungkan baris dari sisi kiri menjadi sebuah kolom*/
+	text-transform: uppercase; /*Mengubah Tulisan menjadi huruf besar semua*/
+}
+div.menu ul li a{
+
+	padding: 20px; /*Membatasi atau memberi jarak antar teks*/
+	text-decoration: none;
+	color: #2c2c2c;
+	font-size: 13px;
+}
+
+.warning{
+	background-color: transparent;
+	padding-top: 90px;
+	text-decoration: none;
+	color: red;
+	font-size: 30px;
+}
+
+.judul{
+	background-color: transparent;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+	padding: 25px;
+	border: 10px;
+	/*border: 1px dashed grey;*/
+	margin-top: 25px;
+	margin-left: 150px; 
+	margin-right:150px;
+	font-family: 'URW Gothic'; 
+}
+.paragraf{
+	font-family: 'Comic Sans MS';\
+	position: center;
+/*	margin-left: 150px;*/
+	margin-right: 140px;
+	font-style: justify;
+}
+
+input{
+	margin-top: 15px;
+	margin-left: 30px;
+}
